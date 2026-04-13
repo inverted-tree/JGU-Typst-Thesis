@@ -1,15 +1,15 @@
 [package]
-name = "harvard-gsas-thesis-oat"
-version = "0.1.5"
+name = "jgu-typst-thesis"
+version = "0.1.0"
 entrypoint = "lib.typ"
-authors = ["Moelf <https://github.com/Moelf>"]
+authors = ["Lukas Schröder <https://github.com/inverted-tree>", "Jerry Ling <https://github.com/Moelf>"]
 license = "MIT"
-description = "PhD Thesis template for Harvard GSAS (Graduate School of Arts and Sciences)"
-repository = "https://github.com/Moelf/harvard-gsas-thesis-oat"
-keywords = ["Harvard", "GSAS", "Harvard University", "dissertation", "thesis"]
+description = "Graduate thesis template for Johannes Gutenberg University Mainz"
+repository = "https://github.com/inverted-tree/JGU-Typst-Thesis"
+keywords = ["JGU", "JGU Mainz", "graduate", "thesis", "dissertation"]
 categories = ["thesis"]
 
 [template]
 path = "templates"
 entrypoint = "main.typ"
-thumbnail = "img/thumbnail.png"
+thumbnail = "static/cover.png"
